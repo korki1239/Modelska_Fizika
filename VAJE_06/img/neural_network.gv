@@ -1,0 +1,23 @@
+digraph neural_network {
+	subgraph inputs {
+		x1 [label=X1]
+		x2 [label=X2]
+		x1 -> h1
+		x1 -> h2
+		x1 -> h3
+		x2 -> h1
+		x2 -> h2
+		x2 -> h3
+	}
+	subgraph hidden {
+		h1 [label=H1]
+		h2 [label=H2]
+		h3 [label=H3]
+		h1 -> y1
+		h2 -> y1
+		h3 -> y1
+	}
+	subgraph outputs {
+		y1 [label=Y1]
+	}
+}
