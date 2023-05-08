@@ -1,0 +1,592 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d0" for="edge" attr.name="weight" attr.type="long" />
+  <graph edgedefault="undirected">
+    <node id="Gared" />
+    <node id="Waymar Royce" />
+    <node id="Waymar" />
+    <node id="Maester Aemon" />
+    <node id="wolf" />
+    <node id="Robert" />
+    <node id="Jon" />
+    <node id="Theon Greyjoy" />
+    <node id="Jon Snow" />
+    <node id="Greyjoy" />
+    <node id="Winterfell" />
+    <node id="Robb" />
+    <node id="Stark" />
+    <node id="Bran" />
+    <node id="Jory" />
+    <node id="Harwin" />
+    <node id="Rodrik" />
+    <node id="Rickon" />
+    <node id="Snow" />
+    <node id="Catelyn" />
+    <node id="Ned" />
+    <node id="Maester Luwin" />
+    <node id="Jon Arryn" />
+    <node id="Robert Baratheon" />
+    <node id="Lysa" />
+    <node id="Viserys" />
+    <node id="Magister Illyrio" />
+    <node id="Khal Drogo" />
+    <node id="Dothraki" />
+    <node id="Lannister" />
+    <node id="Jorah Mormont" />
+    <node id="Tyroshi" />
+    <node id="Jorah" />
+    <node id="Jaime Lannister" />
+    <node id="Sandor Clegane" />
+    <node id="Kingsguard" />
+    <node id="Balon Greyjoy’s" />
+    <node id="Theon" />
+    <node id="Cersei Lannister" />
+    <node id="Jaime" />
+    <node id="Brandon" />
+    <node id="Lyanna" />
+    <node id="Lady Stark" />
+    <node id="Prince Joffrey" />
+    <node id="Joffrey" />
+    <node id="Tyrion Lannister" />
+    <node id="Benjen Stark" />
+    <node id="Ghost" />
+    <node id="Ben Stark" />
+    <node id="Uncle Benjen" />
+    <node id="Daeren Targaryen" />
+    <node id="Arya" />
+    <node id="Sansa" />
+    <node id="Septa Mordane" />
+    <node id="Jeyne" />
+    <node id="Nymeria" />
+    <node id="Hodor" />
+    <node id="Grey Wind" />
+    <node id="Lady" />
+    <node id="Jon Arryn’s" />
+    <node id="Hound" />
+    <node id="Tyrion" />
+    <node id="Dany" />
+    <node id="Irri" />
+    <node id="Khaleesi" />
+    <node id="Drogo" />
+    <node id="Yoren" />
+    <node id="Hallis Mollen" />
+    <node id="Darry" />
+    <node id="Moreo" />
+    <node id="Littlefinger" />
+    <node id="Grenn" />
+    <node id="Alliser Thorne" />
+    <node id="Alliser" />
+    <node id="Thorne" />
+    <node id="Grace" />
+    <node id="Petyr Baelish" />
+    <node id="Spider" />
+    <node id="Pyp" />
+    <node id="Jacks" />
+    <node id="Fat Tom" />
+    <node id="Jhogo" />
+    <node id="Albett" />
+    <node id="Rast" />
+    <node id="Samwell Tarly" />
+    <node id="Sam" />
+    <node id="Summon Jory" />
+    <node id="Malleon" />
+    <node id="Loras Tyrell’s" />
+    <node id="Margaery" />
+    <node id="Tobho Mott" />
+    <edge source="Gared" target="Waymar Royce">
+      <data key="d0">4</data>
+    </edge>
+    <edge source="Gared" target="Waymar">
+      <data key="d0">5</data>
+    </edge>
+    <edge source="Maester Aemon" target="Jon">
+      <data key="d0">5</data>
+    </edge>
+    <edge source="wolf" target="Catelyn">
+      <data key="d0">5</data>
+    </edge>
+    <edge source="Robert" target="Jon">
+      <data key="d0">6</data>
+    </edge>
+    <edge source="Robert" target="Winterfell">
+      <data key="d0">4</data>
+    </edge>
+    <edge source="Robert" target="Stark">
+      <data key="d0">11</data>
+    </edge>
+    <edge source="Robert" target="Jory">
+      <data key="d0">4</data>
+    </edge>
+    <edge source="Robert" target="Catelyn">
+      <data key="d0">13</data>
+    </edge>
+    <edge source="Robert" target="Ned">
+      <data key="d0">103</data>
+    </edge>
+    <edge source="Robert" target="Jon Arryn">
+      <data key="d0">6</data>
+    </edge>
+    <edge source="Robert" target="Lannister">
+      <data key="d0">5</data>
+    </edge>
+    <edge source="Robert" target="Jaime Lannister">
+      <data key="d0">4</data>
+    </edge>
+    <edge source="Robert" target="Kingsguard">
+      <data key="d0">5</data>
+    </edge>
+    <edge source="Robert" target="Cersei Lannister">
+      <data key="d0">6</data>
+    </edge>
+    <edge source="Robert" target="Jaime">
+      <data key="d0">8</data>
+    </edge>
+    <edge source="Robert" target="Lyanna">
+      <data key="d0">9</data>
+    </edge>
+    <edge source="Robert" target="Arya">
+      <data key="d0">5</data>
+    </edge>
+    <edge source="Robert" target="Darry">
+      <data key="d0">5</data>
+    </edge>
+    <edge source="Robert" target="Jorah">
+      <data key="d0">4</data>
+    </edge>
+    <edge source="Jon" target="Theon Greyjoy">
+      <data key="d0">4</data>
+    </edge>
+    <edge source="Jon" target="Jon Snow">
+      <data key="d0">6</data>
+    </edge>
+    <edge source="Jon" target="Winterfell">
+      <data key="d0">4</data>
+    </edge>
+    <edge source="Jon" target="Robb">
+      <data key="d0">13</data>
+    </edge>
+    <edge source="Jon" target="Stark">
+      <data key="d0">6</data>
+    </edge>
+    <edge source="Jon" target="Rickon">
+      <data key="d0">10</data>
+    </edge>
+    <edge source="Jon" target="Snow">
+      <data key="d0">6</data>
+    </edge>
+    <edge source="Jon" target="Catelyn">
+      <data key="d0">7</data>
+    </edge>
+    <edge source="Jon" target="Ned">
+      <data key="d0">15</data>
+    </edge>
+    <edge source="Jon" target="Maester Luwin">
+      <data key="d0">4</data>
+    </edge>
+    <edge source="Jon" target="Lannister">
+      <data key="d0">7</data>
+    </edge>
+    <edge source="Jon" target="Lady Stark">
+      <data key="d0">5</data>
+    </edge>
+    <edge source="Jon" target="Prince Joffrey">
+      <data key="d0">4</data>
+    </edge>
+    <edge source="Jon" target="Tyrion Lannister">
+      <data key="d0">15</data>
+    </edge>
+    <edge source="Jon" target="Benjen Stark">
+      <data key="d0">6</data>
+    </edge>
+    <edge source="Jon" target="Ghost">
+      <data key="d0">13</data>
+    </edge>
+    <edge source="Jon" target="Ben Stark">
+      <data key="d0">4</data>
+    </edge>
+    <edge source="Jon" target="Uncle Benjen">
+      <data key="d0">5</data>
+    </edge>
+    <edge source="Jon" target="Daeren Targaryen">
+      <data key="d0">4</data>
+    </edge>
+    <edge source="Jon" target="Arya">
+      <data key="d0">20</data>
+    </edge>
+    <edge source="Jon" target="Sansa">
+      <data key="d0">7</data>
+    </edge>
+    <edge source="Jon" target="Septa Mordane">
+      <data key="d0">7</data>
+    </edge>
+    <edge source="Jon" target="Grenn">
+      <data key="d0">6</data>
+    </edge>
+    <edge source="Jon" target="Alliser Thorne">
+      <data key="d0">4</data>
+    </edge>
+    <edge source="Jon" target="Alliser">
+      <data key="d0">14</data>
+    </edge>
+    <edge source="Jon" target="Thorne">
+      <data key="d0">4</data>
+    </edge>
+    <edge source="Jon" target="Pyp">
+      <data key="d0">6</data>
+    </edge>
+    <edge source="Jon" target="Albett">
+      <data key="d0">6</data>
+    </edge>
+    <edge source="Jon" target="Rast">
+      <data key="d0">4</data>
+    </edge>
+    <edge source="Jon" target="Samwell Tarly">
+      <data key="d0">10</data>
+    </edge>
+    <edge source="Jon" target="Sam">
+      <data key="d0">18</data>
+    </edge>
+    <edge source="Theon Greyjoy" target="Greyjoy">
+      <data key="d0">4</data>
+    </edge>
+    <edge source="Theon Greyjoy" target="Hodor">
+      <data key="d0">4</data>
+    </edge>
+    <edge source="Theon Greyjoy" target="Hallis Mollen">
+      <data key="d0">4</data>
+    </edge>
+    <edge source="Jon Snow" target="Robb">
+      <data key="d0">4</data>
+    </edge>
+    <edge source="Jon Snow" target="Stark">
+      <data key="d0">4</data>
+    </edge>
+    <edge source="Jon Snow" target="Yoren">
+      <data key="d0">7</data>
+    </edge>
+    <edge source="Jon Snow" target="Alliser">
+      <data key="d0">4</data>
+    </edge>
+    <edge source="Jon Snow" target="Sam">
+      <data key="d0">4</data>
+    </edge>
+    <edge source="Greyjoy" target="Catelyn">
+      <data key="d0">4</data>
+    </edge>
+    <edge source="Greyjoy" target="Ned">
+      <data key="d0">4</data>
+    </edge>
+    <edge source="Winterfell" target="Robb">
+      <data key="d0">5</data>
+    </edge>
+    <edge source="Winterfell" target="Catelyn">
+      <data key="d0">5</data>
+    </edge>
+    <edge source="Winterfell" target="Ned">
+      <data key="d0">6</data>
+    </edge>
+    <edge source="Robb" target="Stark">
+      <data key="d0">4</data>
+    </edge>
+    <edge source="Robb" target="Catelyn">
+      <data key="d0">7</data>
+    </edge>
+    <edge source="Robb" target="Maester Luwin">
+      <data key="d0">7</data>
+    </edge>
+    <edge source="Stark" target="Catelyn">
+      <data key="d0">11</data>
+    </edge>
+    <edge source="Stark" target="Ned">
+      <data key="d0">29</data>
+    </edge>
+    <edge source="Stark" target="Lannister">
+      <data key="d0">6</data>
+    </edge>
+    <edge source="Stark" target="Littlefinger">
+      <data key="d0">5</data>
+    </edge>
+    <edge source="Stark" target="Brandon">
+      <data key="d0">4</data>
+    </edge>
+    <edge source="Stark" target="Arya">
+      <data key="d0">4</data>
+    </edge>
+    <edge source="Stark" target="Yoren">
+      <data key="d0">5</data>
+    </edge>
+    <edge source="Bran" target="Maester Luwin">
+      <data key="d0">6</data>
+    </edge>
+    <edge source="Bran" target="Hodor">
+      <data key="d0">5</data>
+    </edge>
+    <edge source="Jory" target="Ned">
+      <data key="d0">13</data>
+    </edge>
+    <edge source="Jory" target="Arya">
+      <data key="d0">6</data>
+    </edge>
+    <edge source="Harwin" target="Ned">
+      <data key="d0">4</data>
+    </edge>
+    <edge source="Rodrik" target="Catelyn">
+      <data key="d0">9</data>
+    </edge>
+    <edge source="Rodrik" target="Ned">
+      <data key="d0">10</data>
+    </edge>
+    <edge source="Rodrik" target="Moreo">
+      <data key="d0">4</data>
+    </edge>
+    <edge source="Rickon" target="Tyrion Lannister">
+      <data key="d0">6</data>
+    </edge>
+    <edge source="Rickon" target="Arya">
+      <data key="d0">4</data>
+    </edge>
+    <edge source="Rickon" target="Grey Wind">
+      <data key="d0">4</data>
+    </edge>
+    <edge source="Catelyn" target="Ned">
+      <data key="d0">68</data>
+    </edge>
+    <edge source="Catelyn" target="Maester Luwin">
+      <data key="d0">19</data>
+    </edge>
+    <edge source="Catelyn" target="Lysa">
+      <data key="d0">4</data>
+    </edge>
+    <edge source="Catelyn" target="Tyroshi">
+      <data key="d0">4</data>
+    </edge>
+    <edge source="Catelyn" target="Hallis Mollen">
+      <data key="d0">4</data>
+    </edge>
+    <edge source="Catelyn" target="Moreo">
+      <data key="d0">7</data>
+    </edge>
+    <edge source="Catelyn" target="Littlefinger">
+      <data key="d0">9</data>
+    </edge>
+    <edge source="Catelyn" target="Brandon">
+      <data key="d0">4</data>
+    </edge>
+    <edge source="Ned" target="Maester Luwin">
+      <data key="d0">9</data>
+    </edge>
+    <edge source="Ned" target="Jon Arryn">
+      <data key="d0">11</data>
+    </edge>
+    <edge source="Ned" target="Robert Baratheon">
+      <data key="d0">7</data>
+    </edge>
+    <edge source="Ned" target="Lysa">
+      <data key="d0">5</data>
+    </edge>
+    <edge source="Ned" target="Dothraki">
+      <data key="d0">4</data>
+    </edge>
+    <edge source="Ned" target="Lannister">
+      <data key="d0">6</data>
+    </edge>
+    <edge source="Ned" target="Tyroshi">
+      <data key="d0">5</data>
+    </edge>
+    <edge source="Ned" target="Jaime Lannister">
+      <data key="d0">4</data>
+    </edge>
+    <edge source="Ned" target="Kingsguard">
+      <data key="d0">9</data>
+    </edge>
+    <edge source="Ned" target="Balon Greyjoy’s">
+      <data key="d0">4</data>
+    </edge>
+    <edge source="Ned" target="Theon">
+      <data key="d0">4</data>
+    </edge>
+    <edge source="Ned" target="Cersei Lannister">
+      <data key="d0">5</data>
+    </edge>
+    <edge source="Ned" target="Jaime">
+      <data key="d0">7</data>
+    </edge>
+    <edge source="Ned" target="Brandon">
+      <data key="d0">12</data>
+    </edge>
+    <edge source="Ned" target="Lyanna">
+      <data key="d0">8</data>
+    </edge>
+    <edge source="Ned" target="Prince Joffrey">
+      <data key="d0">4</data>
+    </edge>
+    <edge source="Ned" target="Joffrey">
+      <data key="d0">4</data>
+    </edge>
+    <edge source="Ned" target="Arya">
+      <data key="d0">15</data>
+    </edge>
+    <edge source="Ned" target="Nymeria">
+      <data key="d0">4</data>
+    </edge>
+    <edge source="Ned" target="Jon Arryn’s">
+      <data key="d0">4</data>
+    </edge>
+    <edge source="Ned" target="Hound">
+      <data key="d0">5</data>
+    </edge>
+    <edge source="Ned" target="Littlefinger">
+      <data key="d0">19</data>
+    </edge>
+    <edge source="Ned" target="Grace">
+      <data key="d0">4</data>
+    </edge>
+    <edge source="Ned" target="Petyr Baelish">
+      <data key="d0">4</data>
+    </edge>
+    <edge source="Ned" target="Spider">
+      <data key="d0">4</data>
+    </edge>
+    <edge source="Ned" target="Jacks">
+      <data key="d0">4</data>
+    </edge>
+    <edge source="Ned" target="Summon Jory">
+      <data key="d0">4</data>
+    </edge>
+    <edge source="Ned" target="Malleon">
+      <data key="d0">4</data>
+    </edge>
+    <edge source="Ned" target="Loras Tyrell’s">
+      <data key="d0">5</data>
+    </edge>
+    <edge source="Ned" target="Margaery">
+      <data key="d0">5</data>
+    </edge>
+    <edge source="Ned" target="Tobho Mott">
+      <data key="d0">4</data>
+    </edge>
+    <edge source="Ned" target="Jorah">
+      <data key="d0">4</data>
+    </edge>
+    <edge source="Viserys" target="Khal Drogo">
+      <data key="d0">7</data>
+    </edge>
+    <edge source="Viserys" target="Dothraki">
+      <data key="d0">7</data>
+    </edge>
+    <edge source="Viserys" target="Irri">
+      <data key="d0">4</data>
+    </edge>
+    <edge source="Magister Illyrio" target="Khal Drogo">
+      <data key="d0">5</data>
+    </edge>
+    <edge source="Khal Drogo" target="Dothraki">
+      <data key="d0">12</data>
+    </edge>
+    <edge source="Khal Drogo" target="Dany">
+      <data key="d0">4</data>
+    </edge>
+    <edge source="Khal Drogo" target="Khaleesi">
+      <data key="d0">4</data>
+    </edge>
+    <edge source="Dothraki" target="Jorah Mormont">
+      <data key="d0">4</data>
+    </edge>
+    <edge source="Dothraki" target="Jorah">
+      <data key="d0">6</data>
+    </edge>
+    <edge source="Dothraki" target="Dany">
+      <data key="d0">7</data>
+    </edge>
+    <edge source="Dothraki" target="Irri">
+      <data key="d0">9</data>
+    </edge>
+    <edge source="Dothraki" target="Khaleesi">
+      <data key="d0">4</data>
+    </edge>
+    <edge source="Dothraki" target="Drogo">
+      <data key="d0">4</data>
+    </edge>
+    <edge source="Dothraki" target="Jhogo">
+      <data key="d0">4</data>
+    </edge>
+    <edge source="Tyroshi" target="Jorah">
+      <data key="d0">4</data>
+    </edge>
+    <edge source="Jaime Lannister" target="Kingsguard">
+      <data key="d0">5</data>
+    </edge>
+    <edge source="Sandor Clegane" target="Hound">
+      <data key="d0">4</data>
+    </edge>
+    <edge source="Jaime" target="Tyrion">
+      <data key="d0">4</data>
+    </edge>
+    <edge source="Prince Joffrey" target="Arya">
+      <data key="d0">5</data>
+    </edge>
+    <edge source="Joffrey" target="Arya">
+      <data key="d0">10</data>
+    </edge>
+    <edge source="Joffrey" target="Sansa">
+      <data key="d0">10</data>
+    </edge>
+    <edge source="Joffrey" target="Hound">
+      <data key="d0">6</data>
+    </edge>
+    <edge source="Benjen Stark" target="Yoren">
+      <data key="d0">4</data>
+    </edge>
+    <edge source="Ghost" target="Sam">
+      <data key="d0">4</data>
+    </edge>
+    <edge source="Arya" target="Sansa">
+      <data key="d0">28</data>
+    </edge>
+    <edge source="Arya" target="Septa Mordane">
+      <data key="d0">22</data>
+    </edge>
+    <edge source="Arya" target="Jeyne">
+      <data key="d0">4</data>
+    </edge>
+    <edge source="Arya" target="Nymeria">
+      <data key="d0">6</data>
+    </edge>
+    <edge source="Arya" target="Lady">
+      <data key="d0">6</data>
+    </edge>
+    <edge source="Arya" target="Hound">
+      <data key="d0">6</data>
+    </edge>
+    <edge source="Arya" target="Fat Tom">
+      <data key="d0">4</data>
+    </edge>
+    <edge source="Sansa" target="Septa Mordane">
+      <data key="d0">11</data>
+    </edge>
+    <edge source="Sansa" target="Lady">
+      <data key="d0">7</data>
+    </edge>
+    <edge source="Sansa" target="Hound">
+      <data key="d0">4</data>
+    </edge>
+    <edge source="Septa Mordane" target="Nymeria">
+      <data key="d0">4</data>
+    </edge>
+    <edge source="Dany" target="Irri">
+      <data key="d0">5</data>
+    </edge>
+    <edge source="Irri" target="Jhogo">
+      <data key="d0">4</data>
+    </edge>
+    <edge source="Alliser" target="Albett">
+      <data key="d0">4</data>
+    </edge>
+    <edge source="Pyp" target="Sam">
+      <data key="d0">4</data>
+    </edge>
+    <edge source="Samwell Tarly" target="Sam">
+      <data key="d0">5</data>
+    </edge>
+  </graph>
+</graphml>

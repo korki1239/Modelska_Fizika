@@ -1,0 +1,31 @@
+TH_LINK=3
+def check_dist(TH_LINK,x,y):
+    '''
+    x -> seznam lokacij za lik 1
+    y -> seznam lokacij za lik 2
+    '''
+    xx=np.array(x)
+    yy=np.array(y)
+    edge=None
+    z=[min(abs(s-xx)) for s in yy]
+    edge=len([zz for zz in z if zz<TH_LINK])
+    return edge
+
+def create_sociogram(liki,TH,TH_LINK):
+    #Ustvariom prazno mrežo.
+    G=nx.Graph()
+
+    #Mrežo poselimo z vozlišči.
+    for node in liki:
+        G.add_node(node)
+
+    for i,ix in enumerate(nodes[0:10]):
+        for iy in nodes[i+1:10]: #Zgornja trikotna matrika
+            wij=check_dist(TH_LINK,liki[ix],liki[iy])
+            if wij>TH:
+                G.add_edge(ix,iy,weight=wij)
+    return G
+
+for TH in range(0,10):
+    G=create_sociogram(liki,TH,TH_LINK)
+    print(f"TH = {TH}, <k> = {np.mean([G.degree(node) for node in G])}")

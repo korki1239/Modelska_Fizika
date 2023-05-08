@@ -1,0 +1,66 @@
+def Morita(N,kavg,delta,plot):
+    #1) Določimo lege (2D)
+    pos=np.zeros([N,2],float)
+    for i in range(N):
+        pos[i,0]=np.random.rand() #Lega v smeri x za vozlišče i
+        pos[i,1]=np.random.rand() #Lega v smeri y za vozlišče i
+    
+    #2) Poznati moramo razdalje med vozlišči !!(N*(N-1))/2 !!
+    I=np.zeros([N,N],float)
+    for i in range(N):
+        xi,yi = pos[i]
+        for j in range(i+1,N):
+            xj,yj = pos[j]
+            dx=(xi-xj)**2
+            dy=(yi-yj)**2
+            I[i,j]=dx+dy
+            I[j,i]=I[i,j]
+    I=np.power(I,delta/2.0)
+    
+    #3) Atraktivnost
+    f=np.zeros([N],float)
+    n=1.0/(1.0-float(2.5))
+    for i in range(N):
+        y=(i+1)/float(N)
+        f[i]=np.power(y,n)
+    
+    #4) optimizacija delovanja
+    for i in range(N):
+        for j in range(i+1,N):
+            I[i,j]=f[i]*f[j]/I[i,j]
+            I[j,i]=I[i,j]
+            
+    #5) Ustvarimo mrežo
+    THETA=100.0
+    k=0.0 #Trenutna povprečna povezanost
+    x=[]
+    y=[]
+    ic=0
+    while abs(k-kavg)>0.1:
+        #Ustvarim si prazen graf (meža)
+        G=nx.Graph()
+        
+        #Graf poselim z vozlišči
+        for i in range(N):
+            G.add_node(i)
+        
+        #Graf: ustvarimo povezave med vozlišči
+        for i in range(N):
+            for j in range(i+1,N):
+                if I[i,j]>THETA:
+                    G.add_edge(i,j)
+        
+        #Preverimo ali mreža ustreza našim kriterijem
+        k=np.mean([G.degree(i) for i in G])
+        if k>kavg: #Sprejmemo preveč povezav, torej je prag prenizek
+            THETA=THETA*1.01 #Za malo povečamo theta
+        if k<kavg: #Sprejmemo premelo povezav, torej je prag previsok
+            THETA=THETA*0.98 #Theto malo zmanjšamo
+        x.append(ic)
+        y.append(k)
+        ic+=1.0
+    if plot:
+        plt.plot(x,y,marker='o')
+        plt.hlines(kavg,0,ic,color='red')
+        plt.show()
+    return [G,pos]
