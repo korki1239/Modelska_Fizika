@@ -1,11 +1,5 @@
 import numpy as np
 
-
-def inputfunct(x):
-    #return 0.25*(np.cos(2*np.pi*x*x)+2.0)*np.exp(-0.1*x)
-    return 0.25*(np.sin(2*np.pi*x*x)+2.0)-0.5
-
-
 def get_weights(net):
     nn_weights={}
     for w in net.layers:
