@@ -8,16 +8,17 @@ import python_nn as python_nn
 
 
 
-# network
-rate=0.2
-arh=[2,4,4,1]
+# network parameters
+rate=0.01 #
+input_nodes = 1 #Število spremenljivk, ki jih opazujemo
+arh=[input_nodes,2,4,2,1]
 xmax=1.5
 epoch_max=100
 Nsamples=256
 
-x_train, y_train,y_raw = python_nn.logical_gates("OR")
+#x_train, y_train,y_raw = python_nn.logical_gates("AND")
 #x_train, y_train,y_raw = python_nn.function_1(Nsamples,xmax)
-#x_train, y_train,y_raw = python_nn.EKG(Nsamples)
+x_train, y_train,y_raw = python_nn.EKG(Nsamples)
 
 print(x_train.shape,y_train.shape,y_raw.shape)
 
@@ -38,3 +39,6 @@ plt.scatter(x_train[:,0,0], y_train[:,0,0],label="train data",color="black",s=0.
 plt.plot(np.sort(x_train[:,0,0]), y_raw[:,0,0], label="Prava funkcija",lw=1)
 plt.legend()
 plt.show()
+
+#print("Napoved:",[f"{k:.2}" for k in y_pred])
+#print("Prava vrednost:",y_train[:,0,0])
