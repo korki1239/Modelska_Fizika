@@ -6,12 +6,14 @@ def inputfunct(x):
 
 def EKG(N=2000):
     data=np.loadtxt("foetal_ecg.dat")
-    y_raw=data[0:N,1]/np.max(data[0:N,1])
+    delta=(np.max(data[0:N,1])-np.min(data[0:N,1]))
+    y_raw=(data[0:N,1]-np.min(data[0:N,1]))/delta
+    
     x=np.array([[[t]] for t in data[0:N,0]])
     y=np.array([[[t]] for t in y_raw])
     return x,y,y
 
-def logical_gates(gate="AND"):
+def logical_gates(gate="AND"):   
     x_train = np.array([[[0,0]], [[0,1]], [[1,0]], [[1,1]]])
     if gate=="AND":
         y_train = np.array([[[0]], [[0]], [[0]], [[1]]])
