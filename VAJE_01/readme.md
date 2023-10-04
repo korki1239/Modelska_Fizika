@@ -36,9 +36,7 @@ Zračni odpornost je sila, ki deluje proti smeri gibanja rakete in je odvisna od
 
 $$
 \begin{equation}
-
 F_{odpornost} = \frac{1}{2} \times \rho \times v^2 \times C_d \times S
-
 \end{equation}
 $$
 
